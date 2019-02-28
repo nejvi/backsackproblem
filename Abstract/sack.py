@@ -2,6 +2,7 @@ import Abstract
 
 class Sack(object):
     sack_items = []
+    sack_items_count = 5
     max_capacity = 100
     value = 0
 
