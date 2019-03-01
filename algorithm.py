@@ -168,7 +168,7 @@ class Algorithm(object):
             self.fitness.append(fitness_value)
             if(fitness_value>fitest):
                 fitest = fitness_value
-                fitest_index = j
+                fitest_index = i
 
             self.total_fitness_of_generation += fitness_value
 
